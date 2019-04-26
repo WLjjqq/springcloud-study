@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-study-provider-dept-8001" />
         <module name="springcloud-study-consumer-dept-80" />
+        <module name="springcloud-study-euraka-7001" />
         <module name="springcloud-study-api" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="springcloud-study" options="-parameters" />
       <module name="springcloud-study-api" options="" />
       <module name="springcloud-study-consumer-dept-80" options="" />
+      <module name="springcloud-study-euraka-7001" options="" />
       <module name="springcloud-study-provider-dept-8001" options="" />
     </option>
   </component>
