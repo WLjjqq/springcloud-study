@@ -1,7 +1,7 @@
 # springcloud-study
-springcloud微服务的搭
+springcloud微服务的搭建
 ===
-父模块springcloud学习
+# 父模块springcloud学习
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
@@ -88,7 +88,7 @@ springcloud微服务的搭
     </dependencyManagement>
 </项目>
 ```
-=======公共子模块======
+#公共子模块springcloud-study-api
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -112,7 +112,7 @@ springcloud微服务的搭
     </dependencies>
 </project>
 ```
-===服务者springcloud学习提供商-部门-8001===
+#服务者springcloud学习提供商-部门-8001
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -177,7 +177,7 @@ springcloud微服务的搭
 
 </project>
 ```
-===消费者===
+#消费者springcloud-study-consumer-dept-80<
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -234,3 +234,9 @@ springcloud微服务的搭
 
 </project>
 ```
+什么是服务者？什么是消费者？
+====================
+服务者：为其他服务做服务的。
+消费者：依赖于其它服务。
+假如：用户去电影院买票。用户微服务这个模块要先去查询一下这个用户的余额是否充足。电影微服务这个模块根据用户微服务发送过来的信息决定是否卖给用户。
+这里：用户微服务  是提供者。  电影微服务   是消费者。前提是提供者的服务器要打开。
