@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/springcloud-study-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-study-consumer-dept-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-study-consumer-dept-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-study-consumer-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-study-euraka-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-study-euraka-7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-study-euraka-7002" charset="UTF-8" />
@@ -12,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/springcloud-study-provider-dept-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-study-provider-dept-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-study-provider-dept-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-study-provider-dept-hystrix-8001" charset="UTF-8" />
   </component>
 </project>
