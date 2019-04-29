@@ -10,11 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * @author GongXings
- * @createTime 30 15:48
- * @description
- */
+
 @RestController
 public class DeptConsumerController {
     @Resource

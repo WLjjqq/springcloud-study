@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-
-@FeignClient(value = "STUDY-SPRINGCLOUD-DEPT")
+/**
+ * Feign使用Hystric熔断机制。
+ */
+@FeignClient(value = "STUDY-SPRINGCLOUD-DEPT",fallbackFactory = DeptClientServiceFallBackFactory.class)
 public interface DeptClientService {
 
 
